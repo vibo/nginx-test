@@ -1,0 +1,13 @@
+{
+  "name": "nginx-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build -t nginx-test .",
+    "start": "docker run --name nginx-test -d -p 8080:80 nginx-test",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

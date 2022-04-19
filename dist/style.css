@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #eee;
+  color: purple;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  transform: rotate(180deg);
+}
