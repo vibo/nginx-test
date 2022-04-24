@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "docker build -t nginx-test .",
-    "start": "docker run --name nginx-test -d -p 8080:80 nginx-test",
+    "start": "docker rm --force nginx-test && docker run --name nginx-test -d -p 8080:80 nginx-test",
+    "bs": "npm run build && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
