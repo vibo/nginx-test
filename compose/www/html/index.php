@@ -15,5 +15,7 @@
     echo 'We are running PHP, version: ' . phpversion();
   ?>
   </p>
+
+  <script type="text/javascript" src="./index.js"></script>
 </body>
 </html>
